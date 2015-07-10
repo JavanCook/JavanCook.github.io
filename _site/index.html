@@ -19,6 +19,7 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
 ript>
     <![endif]-->
+    <link rel="stylesheet" href="/monokai_sublime.css">
   </head>
 
   <body>
@@ -44,6 +45,9 @@ v-collapse">
 
     <div class="container">
 
+
+<script src="/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 <div class="row">
   <div class="col-md-8">
@@ -76,6 +80,32 @@ v-collapse">
 
 
 
+<img src="/IMAG0188.jpg" alt="our first photo">
+
+
+<pre>
+  <code class="language-bash hljs" data-lang="bash">
+# print listening tcp ports
+
+# Linux
+netstat -plnt
+ss -plnt
+
+# OS X (does this work on FreeBSD?)
+lsof -nP | grep LISTEN
+  </code>
+
+
+<code class="language-bash hljs" data-lang="bash"><span class="lineno"><span class="hljs-number">1</span></span> <span class="c"><span class="hljs-comment"># print listening tcp ports</span></span>
+<span class="lineno"><span class="hljs-number">2</span></span>
+<span class="lineno"><span class="hljs-number">3</span></span> <span class="c"><span class="hljs-comment"># Linux</span></span>
+<span class="lineno"><span class="hljs-number">4</span></span> netstat -plnt
+<span class="lineno"><span class="hljs-number">5</span></span> ss -plnt
+<span class="lineno"><span class="hljs-number">6</span></span>
+<span class="lineno"><span class="hljs-number">7</span></span> <span class="c"><span class="hljs-comment"># OS X (does this work on FreeBSD?)</span></span>
+<span class="lineno"><span class="hljs-number">8</span></span> lsof -nP <span class="p">|</span> grep LISTEN</code>
+
+</pre>
 <div class="row-fluid">
   <div class="span12">
     <div class="pagination">
