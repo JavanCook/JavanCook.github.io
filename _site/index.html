@@ -106,6 +106,16 @@ lsof -nP | grep LISTEN
 <span class="lineno"><span class="hljs-number">8</span></span> lsof -nP <span class="p">|</span> grep LISTEN</code>
 
 </pre>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="lineno">1</span> <span class="c"># print listening tcp ports</span>
+<span class="lineno">2</span> 
+<span class="lineno">3</span> <span class="c"># Linux</span>
+<span class="lineno">4</span> netstat -plnt
+<span class="lineno">5</span> ss -plnt
+<span class="lineno">6</span> 
+<span class="lineno">7</span> <span class="c"># OS X (does this work on FreeBSD?)</span>
+<span class="lineno">8</span> lsof -nP <span class="p">|</span> grep LISTEN</code></pre></div>
+
 <div class="row-fluid">
   <div class="span12">
     <div class="pagination">

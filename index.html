@@ -44,6 +44,18 @@ lsof -nP | grep LISTEN
 <span class="lineno"><span class="hljs-number">8</span></span> lsof -nP <span class="p">|</span> grep LISTEN</code>
 
 </pre>
+
+{% highlight bash linenos %}
+# print listening tcp ports
+
+# Linux
+netstat -plnt
+ss -plnt
+
+# OS X (does this work on FreeBSD?)
+lsof -nP | grep LISTEN
+{% endhighlight %}
+
 <div class="row-fluid">
   <div class="span12">
     <div class="pagination">
