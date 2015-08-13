@@ -1,7 +1,7 @@
 name: "Javan Cook"
 description: "Webpage"
 
-url: "http://javancook.github.io/"
+url: "http://localhost:4000/"
 
 paginate: 5
 
