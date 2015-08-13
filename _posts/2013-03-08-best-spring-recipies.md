@@ -1,5 +1,5 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
+title: Baculum
 description: Some shit from the internet
 category: Latin
 tags: Nonsense Bollocks
