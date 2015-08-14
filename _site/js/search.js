@@ -70,7 +70,7 @@
   // Returns:
   //   undefined
   var layoutResultsPage = function(property, value, posts) {
-    var $container = $('main');
+    var $container = $('#main');
     if ($container.length === 0) return;
 
     // Update the header
