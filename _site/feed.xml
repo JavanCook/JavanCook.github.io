@@ -3,8 +3,8 @@
   <channel>
     <title>Javan Cook</title>
     <description>Webpage</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://javancook.github.io/</link>
+    <atom:link href="http://javancook.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Eheu!</title>
@@ -22,8 +22,8 @@ mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
  nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000///latin/2013/03/23/best-spring-recipies/</link>
-        <guid isPermaLink="true">http://localhost:4000///latin/2013/03/23/best-spring-recipies/</guid>
+        <link>http://javancook.github.io///latin/2013/03/23/best-spring-recipies/</link>
+        <guid isPermaLink="true">http://javancook.github.io///latin/2013/03/23/best-spring-recipies/</guid>
       </item>
     
       <item>
@@ -42,8 +42,8 @@ mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
  nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000///latin%20stuff%20from%20the%20internet/2013/03/11/best-spring-recipies/</link>
-        <guid isPermaLink="true">http://localhost:4000///latin%20stuff%20from%20the%20internet/2013/03/11/best-spring-recipies/</guid>
+        <link>http://javancook.github.io///latin%20stuff%20from%20the%20internet/2013/03/11/best-spring-recipies/</link>
+        <guid isPermaLink="true">http://javancook.github.io///latin%20stuff%20from%20the%20internet/2013/03/11/best-spring-recipies/</guid>
       </item>
     
       <item>
@@ -62,8 +62,8 @@ mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
  nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000///latin/2013/03/08/best-spring-recipies/</link>
-        <guid isPermaLink="true">http://localhost:4000///latin/2013/03/08/best-spring-recipies/</guid>
+        <link>http://javancook.github.io///latin/2013/03/08/best-spring-recipies/</link>
+        <guid isPermaLink="true">http://javancook.github.io///latin/2013/03/08/best-spring-recipies/</guid>
       </item>
     
   </channel>
