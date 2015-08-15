@@ -2,27 +2,27 @@
     
        {
          "title"    : "Eheu!",
-         "description" : "Some shit from the internet",
+         "description" : "Some stuff from the internet",
          "category" : "Latin",
-         "tags"     : ["Nonsense","Bollocks","Codswallop", null],
+         "tags"     : ["Nonsense","Rubbish","Codswallop", null],
          "url"     : "/latin/2013/03/23/best-spring-recipies/",
          "date"     : "2013-03-23 00:00:00 +0000"
        } ,
    
        {
          "title"    : "Lorem Ipsum Dolor Sit Amet",
-         "description" : "Some shit from the internet",
-         "category" : "Latin Shit From the internet",
-         "tags"     : ["Nonsense","Bollocks","Tripe", null],
-         "url"     : "/latin%20shit%20from%20the%20internet/2013/03/11/best-spring-recipies/",
+         "description" : "Some stuff from the internet",
+         "category" : "Latin Stuff From the internet",
+         "tags"     : ["Nonsense","Rubbish","Tripe", null],
+         "url"     : "/latin%20stuff%20from%20the%20internet/2013/03/11/best-spring-recipies/",
          "date"     : "2013-03-11 00:00:00 +0000"
        } ,
    
        {
          "title"    : "Baculum",
-         "description" : "Some shit from the internet",
+         "description" : "Some stuff from the internet",
          "category" : "Latin",
-         "tags"     : ["Nonsense","Bollocks", null],
+         "tags"     : ["Nonsense","Rubbish", null],
          "url"     : "/latin/2013/03/08/best-spring-recipies/",
          "date"     : "2013-03-08 00:00:00 +0000"
        } 

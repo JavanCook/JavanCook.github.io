@@ -1,8 +1,8 @@
 ---
 title: Lorem Ipsum Dolor Sit Amet
-description: Some shit from the internet
-category: Latin Shit From the internet
-tags: Nonsense Bollocks Tripe
+description: Some stuff from the internet
+category: Latin Stuff From the internet
+tags: Nonsense Rubbish Tripe
 layout: post
 ---
 

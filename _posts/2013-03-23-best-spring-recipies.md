@@ -1,8 +1,8 @@
 ---
 title: Eheu!
-description: Some shit from the internet
+description: Some stuff from the internet
 category: Latin
-tags: Nonsense Bollocks Codswallop
+tags: Nonsense Rubbish Codswallop
 layout: post
 ---
 

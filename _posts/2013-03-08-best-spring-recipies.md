@@ -1,8 +1,8 @@
 ---
 title: Baculum
-description: Some shit from the internet
+description: Some stuff from the internet
 category: Latin
-tags: Nonsense Bollocks
+tags: Nonsense Rubbish
 layout: post
 ---
 
