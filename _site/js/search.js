@@ -100,12 +100,12 @@
         '<li>'
           // Page anchor
           + '<header>'
-            + '<h1>'
-              + '<a href="' + post.href + '">' + post.title + '</a>'
-            + '</h1>'
+            + '<h2>'
+              + '<a href="' + post.url + '">' + post.title + '</a>'
+            + '</h2>'
             // Post date
             + '<h2>'
-              + post.date.formatted
+              + post.date
               + ' in <a href="/search.html?category=' + post.category + '">'
               +  majusculeFirst(post.category) + '</a>'
             + '</h2>'
