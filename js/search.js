@@ -69,13 +69,14 @@
   //   posts: array of post objects
   // Returns:
   //   undefined
+  var options = {year: 'numeric', month: 'long', day: 'numeric' };
   var layoutResultsPage = function(property, value, posts) {
     var $container = $('#main');
     if ($container.length === 0) return;
 
     // Update the header
-    $container.find('h1').text('Search Results '
-      + majusculeFirst(property)
+    $container.find('h1').text('Search results for the  '
+      + majusculeFirst(property).replace('s', '').toLowerCase()
       + ' "'
       + majusculeFirst(value)
       + '":'
@@ -106,7 +107,7 @@
             + '</h2>'
             // Post date
             + '<h4>'
-              + post.date.toDateString()
+              + new Date(post.date.replace(/ .*$/,'')).toLocaleDateString('en-GB', options)
               + ' in <a href="/search.html?category=' + post.category + '">'
               +  majusculeFirst(post.category) + '</a>'
             + '</h4>'
