@@ -6809,4 +6809,48 @@ button.close {
     display: none !important;
   }
 }
+/* Search and index listings */
+ul.results {
+ margin: 0;
+ padding: 0;
+ list-style: disc;
+}
+
+ul.results > li {
+ margin-left: 50px;
+ padding-top: 15px;
+}
+
+ul.results > li:first-child {
+ margin-top: 0px;
+}
+
+/* Tags listing */
+.tags {
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.tags:before {
+  font-family: "Glyphicons Halflings";
+  content: "\e042  ";
+}
+
+.tags li {
+ display: inline-block;
+ margin-bottom: 0;
+ color: #aaa;
+}
+
+/* Add a comma+space after each list item, except the last */
+.tags li:after {
+ color: #000;
+ content: ",\00a0";
+}
+
+.tags li:last-child:after {
+ content: "";
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */

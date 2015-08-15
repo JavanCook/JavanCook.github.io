@@ -74,10 +74,11 @@
     if ($container.length === 0) return;
 
     // Update the header
-    $container.find('h1').text(majusculeFirst(property)
-      + ' Listing for ‘'
+    $container.find('h1').text('Search Results '
+      + majusculeFirst(property)
+      + ' "'
       + majusculeFirst(value)
-      + '’'
+      + '":'
     );
 
     // Loop through each post to format it
@@ -104,11 +105,11 @@
               + '<a href="' + post.url + '">' + post.title + '</a>'
             + '</h2>'
             // Post date
-            + '<h2>'
-              + post.date
+            + '<h4>'
+              + post.date.toDateString()
               + ' in <a href="/search.html?category=' + post.category + '">'
               +  majusculeFirst(post.category) + '</a>'
-            + '</h2>'
+            + '</h4>'
             // Tags
             + tagsList
           + '</header>'
