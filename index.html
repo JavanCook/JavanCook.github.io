@@ -22,12 +22,12 @@ layout: default
   </tbody>
 </table>
 </a>
-
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
 <div style="text-align:center">
 <div class="pagination">
+
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}

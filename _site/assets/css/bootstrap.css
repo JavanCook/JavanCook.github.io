@@ -1224,8 +1224,13 @@ h2,
 h3,
 .h3 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
+/* Spacing */
+.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
+ margin-bottom: 10px;
+}
+
 h1 small,
 .h1 small,
 h2 small,
@@ -1288,7 +1293,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1575,17 +1580,20 @@ pre {
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f5f5f5;
+  background-color: #333;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 pre code {
   padding: 0;
   font-size: inherit;
-  color: inherit;
+  color: #fff;
   white-space: pre-wrap;
   background-color: transparent;
   border-radius: 0;
+}
+.lineno {
+  color: #ae81ff;
 }
 .pre-scrollable {
   max-height: 340px;
