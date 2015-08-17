@@ -7,6 +7,35 @@
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>The Remote Xbox Project</title>
+        <description>&lt;p&gt;This year for Christmas I was lucky enough to get a couple of Raspberry Pi devices and a load of miscellaneous accessories and gizmos. After getting back in to Python by making some flashing lights and random number generators, I was looking for a new project.
+I toyed with making them into media servers or retro game emulators but in the end I didn&#39;t really have any need for either of those things.
+Instead I decided that I wanted to try something new where I could learn some new things and increase my knowledge of Python, preferably involving hardware of some description too.&lt;/p&gt;
+
+&lt;p&gt;I decided to try to implement some sort of system to play my Xbox 360 remotely whilst I am away from home.
+This would involve a number of different coding stages to make it work and would also require modifying hardware.
+The recent announcements from Microsoft regarding streaming Xbox One to Windows 10 devices and the backwards compatibility of the Xbox One have rendered this project redundant.
+However, as this was more of a learning exercise than an alternative to these services, and given I started this in January, I&#39;ve continued with the project.&lt;/p&gt;
+
+&lt;p&gt;In order for this project to work, I needed to integrate a number of features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[ ] A way of detecting the inputs from a controller.&lt;/li&gt;
+&lt;li&gt;[ ] A way of transferring this information from a client to a server.&lt;/li&gt;
+&lt;li&gt;[ ] A way of replicating the inputs on the server side as outputs to the 360 console.&lt;/li&gt;
+&lt;li&gt;[ ] A way to view the gameplay.&lt;/li&gt;
+&lt;li&gt;[ ] A way to control the TV.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;This is the checklist of essential features that I&#39;ve worked on in an attempt to make this project succeed. This will be updated in subsequent posts as progress is made.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000///remote%20xbox%20project/2015/08/17/the-remote-xbox-project/</link>
+        <guid isPermaLink="true">http://localhost:4000///remote%20xbox%20project/2015/08/17/the-remote-xbox-project/</guid>
+      </item>
+    
+      <item>
         <title>Making This Blog</title>
         <description>&lt;p&gt;I first heard about Github pages from my friend &lt;a href=&quot;http://mattsumme.rs/&quot;&gt;Matt&lt;/a&gt; whilst looking for a place to host a blog for free that I could use to document my progress on various projects.
 As I wanted to be able to produce content using my Windows based laptop I initially followed a &lt;a href=&quot;http://jekyll-windows.juthilo.com/]&quot;&gt;guide&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/juthilo&quot;&gt;@juthilo&lt;/a&gt; which worked really well.
@@ -34,9 +63,9 @@ Finally, the next and previous post buttons were adapted from &lt;a href=&quot;h
 
 &lt;p&gt;As you can see, most of the elements of this blog have been cannibalised from other people&#39;s sites. However, being new to HTML, CSS and Javascript, it has been fun learning experience to adapt them to my needs and make them all work together.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 17 Aug 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000///blog/2015/08/17/making-this-blog/</link>
-        <guid isPermaLink="true">http://localhost:4000///blog/2015/08/17/making-this-blog/</guid>
+        <pubDate>Sun, 16 Aug 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000///blog/2015/08/16/making-this-blog/</link>
+        <guid isPermaLink="true">http://localhost:4000///blog/2015/08/16/making-this-blog/</guid>
       </item>
     
   </channel>
