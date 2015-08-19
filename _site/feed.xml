@@ -9,26 +9,25 @@
       <item>
         <title>The Remote Xbox Project</title>
         <description>&lt;p&gt;This year for Christmas I was lucky enough to get a couple of Raspberry Pi devices and a load of miscellaneous accessories and gizmos. After getting back in to Python by making some flashing lights and random number generators, I was looking for a new project.
-I toyed with making them into media servers or retro game emulators but in the end I didn&#39;t really have any need for either of those things.
+I toyed with making them into media servers or retro game emulators but in the end I didn&amp;#39;t really have any need for either of those things.
 Instead I decided that I wanted to try something new where I could learn some new things and increase my knowledge of Python, preferably involving hardware of some description too.&lt;/p&gt;
 
 &lt;p&gt;I decided to try to implement some sort of system to play my Xbox 360 remotely whilst I am away from home.
 This would involve a number of different coding stages to make it work and would also require modifying hardware.
 The recent announcements from Microsoft regarding streaming Xbox One to Windows 10 devices and the backwards compatibility of the Xbox One have rendered this project redundant.
-However, as this was more of a learning exercise than an alternative to these services, and given I started this in January, I&#39;ve continued with the project.&lt;/p&gt;
+However, as this was more of a learning exercise than an alternative to these services, and given I started this in January, I&amp;#39;ve continued with the project.&lt;/p&gt;
 
 &lt;p&gt;In order for this project to work, I needed to integrate a number of features:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;[ ] A way of detecting the inputs from a controller.&lt;/li&gt;
-&lt;li&gt;[ ] A way of transferring this information from a client to a server.&lt;/li&gt;
-&lt;li&gt;[ ] A way of replicating the inputs on the server side as outputs to the 360 console.&lt;/li&gt;
-&lt;li&gt;[ ] A way to view the gameplay.&lt;/li&gt;
-&lt;li&gt;[ ] A way to control the TV.&lt;/li&gt;
+&lt;li&gt; A way of detecting the inputs from a controller.&lt;/li&gt;
+&lt;li&gt; A way of transferring this information from a client to a server.&lt;/li&gt;
+&lt;li&gt; A way of replicating the inputs on the server side as outputs to the 360 console.&lt;/li&gt;
+&lt;li&gt; A way to view the gameplay.&lt;/li&gt;
+&lt;li&gt; A way to control the TV.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;p&gt;This is the checklist of essential features that I&#39;ve worked on in an attempt to make this project succeed. This will be updated in subsequent posts as progress is made.&lt;/p&gt;
+&lt;p&gt;This is the checklist of essential features that I&amp;#39;ve worked on in an attempt to make this project succeed. This will be updated in subsequent posts as progress is made and some optional extras may be incorporated if feasible.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Aug 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:4000///remote%20xbox%20project/2015/08/17/the-remote-xbox-project/</link>
@@ -38,9 +37,9 @@ However, as this was more of a learning exercise than an alternative to these se
       <item>
         <title>Making This Blog</title>
         <description>&lt;p&gt;I first heard about Github pages from my friend &lt;a href=&quot;http://mattsumme.rs/&quot;&gt;Matt&lt;/a&gt; whilst looking for a place to host a blog for free that I could use to document my progress on various projects.
-As I wanted to be able to produce content using my Windows based laptop I initially followed a &lt;a href=&quot;http://jekyll-windows.juthilo.com/]&quot;&gt;guide&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/juthilo&quot;&gt;@juthilo&lt;/a&gt; which worked really well.
+As I wanted to be able to produce content using my Windows based laptop I initially followed a &lt;a href=&quot;http://jekyll-windows.juthilo.com/%5D&quot;&gt;guide&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/juthilo&quot;&gt;@juthilo&lt;/a&gt; which worked really well.
 The only point at which I found this guide lacking is for if you plan to use pygments for syntax highlighting.
-When posting samples of code, I found initially that pygments wasn&#39;t working despite being installed sucessfully.
+When posting samples of code, I found initially that pygments wasn&amp;#39;t working despite being installed sucessfully.
 After visiting the &lt;a href=&quot;http://pygments.org/&quot;&gt;pygments website&lt;/a&gt; I found that I needed to generate a stylesheet first.&lt;/p&gt;
 
 &lt;p&gt;I first used the following code in the Python command line to check which styles were already installed:&lt;/p&gt;
@@ -48,20 +47,19 @@ After visiting the &lt;a href=&quot;http://pygments.org/&quot;&gt;pygments websi
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygments.styles&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;STYLE_MAP&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;STYLE_MAP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;From the list this provided I selected paraiso-dark, based on some &lt;a href=&quot;http://pygments.org/demo/&quot;&gt;experimentation on the pygments website&lt;/a&gt;.
 Having selected my style of preference I then needed to generate my CSS stylesheet.
 To do this I put the following line into the command prompt:&lt;/p&gt;
 
-&lt;p&gt;&lt;kbd&gt;pygmentize -S style -f html &gt;output.css&lt;/kbd&gt;&lt;/p&gt;
+&lt;p&gt;&lt;kbd&gt;pygmentize -S style -f html &amp;gt;output.css&lt;/kbd&gt;&lt;/p&gt;
 
-&lt;p&gt;Where  &quot;style&quot; is the name of the style obtained earlier and &quot;output.css&quot; is the output file.&lt;/p&gt;
+&lt;p&gt;Where  &amp;quot;style&amp;quot; is the name of the style obtained earlier and &amp;quot;output.css&amp;quot; is the output file.&lt;/p&gt;
 
 &lt;p&gt;The majority of the rest of the blog was produced using the documentation on &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt; in conjuction with the &lt;a href=&quot;http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial&quot;&gt;Andrew Munsell tutorial&lt;/a&gt;.
-The search bar was modified from &lt;a href=&quot;http://www.askdavetaylor.com/how_can_i_add_a_google_search_box_to_my_web_site/&quot;&gt;Dave Taylor&#39;s site&lt;/a&gt; whilst the tag and category search function was modified from &lt;a href=&quot;https://alexpearce.me/2012/04/simple-jekyll-searching/&quot;&gt;Alex Pearce&#39;s site&lt;/a&gt;.
-Finally, the next and previous post buttons were adapted from &lt;a href=&quot;http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html&quot;&gt;David Elbe&#39;s site&lt;/a&gt; and my favicon was generated using &lt;a href=&quot;http://www.favicomatic.com/&quot;&gt;Favic-o-matic&lt;/a&gt;.&lt;/p&gt;
+The search bar was modified from &lt;a href=&quot;http://www.askdavetaylor.com/how_can_i_add_a_google_search_box_to_my_web_site/&quot;&gt;Dave Taylor&amp;#39;s site&lt;/a&gt; whilst the tag and category search function was modified from &lt;a href=&quot;https://alexpearce.me/2012/04/simple-jekyll-searching/&quot;&gt;Alex Pearce&amp;#39;s site&lt;/a&gt;.
+Finally, the next and previous post buttons were adapted from &lt;a href=&quot;http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html&quot;&gt;David Elbe&amp;#39;s site&lt;/a&gt; and my favicon was generated using &lt;a href=&quot;http://www.favicomatic.com/&quot;&gt;Favic-o-matic&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;As you can see, most of the elements of this blog have been cannibalised from other people&#39;s sites. However, being new to HTML, CSS and Javascript, it has been fun learning experience to adapt them to my needs and make them all work together.&lt;/p&gt;
+&lt;p&gt;As you can see, most of the elements of this blog have been cannibalised from other people&amp;#39;s sites. However, being new to HTML, CSS and Javascript, it has been fun learning experience to adapt them to my needs and make them all work together.&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Aug 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:4000///blog/2015/08/16/making-this-blog/</link>

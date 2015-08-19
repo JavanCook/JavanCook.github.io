@@ -16,10 +16,10 @@ However, as this was more of a learning exercise than an alternative to these se
 
 In order for this project to work, I needed to integrate a number of features:
 
-- [ ] A way of detecting the inputs from a controller.
-- [ ] A way of transferring this information from a client to a server.
-- [ ] A way of replicating the inputs on the server side as outputs to the 360 console.
-- [ ] A way to view the gameplay.
-- [ ] A way to control the TV.
+-  A way of detecting the inputs from a controller.
+-  A way of transferring this information from a client to a server.
+-  A way of replicating the inputs on the server side as outputs to the 360 console.
+-  A way to view the gameplay.
+-  A way to control the TV.
 
-This is the checklist of essential features that I've worked on in an attempt to make this project succeed. This will be updated in subsequent posts as progress is made.
+This is the checklist of essential features that I've worked on in an attempt to make this project succeed. This will be updated in subsequent posts as progress is made and some optional extras may be incorporated if feasible.

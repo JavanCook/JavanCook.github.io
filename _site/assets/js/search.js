@@ -36,7 +36,7 @@
   var filterPostsByPropertyValue = function(posts, property, value) {
     var filteredPosts = [];
     // The last element is a null terminator
-    posts.pop();
+    posts;
     for (var i in posts) {
       var post = posts[i],
           prop = post[property];
