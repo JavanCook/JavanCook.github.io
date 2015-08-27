@@ -3,6 +3,7 @@ title: The Remote Xbox Project
 description: An introduction to the remote xbox project
 category: Remote Xbox Project
 tags: Xbox Raspberry-Pi
+keywords: Xbox, Raspberry-Pi
 layout: post
 ---
 This year for Christmas I was lucky enough to get a couple of Raspberry Pi devices and a load of miscellaneous accessories and gizmos. After getting back in to Python by making some flashing lights and random number generators, I was looking for a new project.

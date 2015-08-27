@@ -3,6 +3,7 @@ title: Making This Blog
 description: The sources and guides used to make this blog
 category: Blog
 tags: HTML CSS Jekyll
+keywords: HTML, CSS, Jekyll
 layout: post
 ---
 I first heard about Github pages from my friend [Matt](http://mattsumme.rs/) whilst looking for a place to host a blog for free that I could use to document my progress on various projects.
