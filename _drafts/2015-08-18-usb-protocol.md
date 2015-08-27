@@ -8,7 +8,6 @@ layout: post
 ---
 Cheap surface case.
 Anne of Green Gables.
-Pot pot sweets.
 
 ### Checklist
 -  A way of detecting the inputs from a controller.
