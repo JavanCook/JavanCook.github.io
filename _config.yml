@@ -6,5 +6,5 @@ url: "http://javancook.com/"
 paginate: 10
 
 markdown: redcarpet
-permalink: /blog/:year/:title/
+permalink: /:year/:title/
 highlighter: pygments

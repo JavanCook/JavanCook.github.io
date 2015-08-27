@@ -18,5 +18,7 @@ Primarily using this blog as a method for documenting my attempts to learn more 
 
 3. [J. Santos, J. H. Cook, H. A. Al-Attar, A. P. Monkman and M. R. Bryce, *‘Fluorene Copolymers with High Efficiency Deep-Blue Electroluminescence’*, Journal of Materials Chemistry C, **3**, 2479, (2015).](http://pubs.rsc.org/en/content/articlelanding/2015/tc/c4tc02766c#!divAbstract)
 
+4. J. H. Cook, J. Santos, H. A. Al-Attar, M.R. Bryce and A. P. Monkman, *‘High brightness deep blue/violet fluorescent polymer light-emitting diodes (PLEDs)’*, Journal of Materials Chemistry C, TBA.
+
 ### Thesis
 [THE INVESTIGATION OF PHOSPHORESCENT DOPANTS AND NOVEL BLUE FLUORESCENT POLYMER HOSTS FOR PLED DEVICES](http://etheses.dur.ac.uk/11213/)

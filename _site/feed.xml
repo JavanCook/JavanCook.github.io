@@ -3,8 +3,8 @@
   <channel>
     <title>Javan Cook</title>
     <description>Webpage</description>
-    <link>http://javancook.com/</link>
-    <atom:link href="http://javancook.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>The Remote Xbox Project</title>
@@ -30,8 +30,8 @@ However, as this was more of a learning exercise than an alternative to these se
 &lt;p&gt;This is the checklist of essential features that I&amp;#39;ve worked on in an attempt to make this project succeed. This will be updated in subsequent posts as progress is made and some optional extras may be incorporated if feasible.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Aug 2015 00:00:00 +0100</pubDate>
-        <link>http://javancook.com///remote%20xbox%20project/2015/08/17/the-remote-xbox-project/</link>
-        <guid isPermaLink="true">http://javancook.com///remote%20xbox%20project/2015/08/17/the-remote-xbox-project/</guid>
+        <link>http://localhost:4000///2015/the-remote-xbox-project/</link>
+        <guid isPermaLink="true">http://localhost:4000///2015/the-remote-xbox-project/</guid>
       </item>
     
       <item>
@@ -62,8 +62,8 @@ Finally, the next and previous post buttons were adapted from &lt;a href=&quot;h
 &lt;p&gt;As you can see, most of the elements of this blog have been cannibalised from other people&amp;#39;s sites. However, being new to HTML, CSS and Javascript, it has been fun learning experience to adapt them to my needs and make them all work together.&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Aug 2015 00:00:00 +0100</pubDate>
-        <link>http://javancook.com///blog/2015/08/16/making-this-blog/</link>
-        <guid isPermaLink="true">http://javancook.com///blog/2015/08/16/making-this-blog/</guid>
+        <link>http://localhost:4000///2015/making-this-blog/</link>
+        <guid isPermaLink="true">http://localhost:4000///2015/making-this-blog/</guid>
       </item>
     
   </channel>

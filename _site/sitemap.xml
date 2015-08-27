@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://javancook.com//remote%20xbox%20project/2015/08/17/the-remote-xbox-project/</loc>
+      <loc>http://localhost:4000//2015/the-remote-xbox-project/</loc>
       
         <lastmod>2015-08-17T00:00:00+01:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://javancook.com//blog/2015/08/16/making-this-blog/</loc>
+      <loc>http://localhost:4000//2015/making-this-blog/</loc>
       
         <lastmod>2015-08-16T00:00:00+01:00</lastmod>
       
@@ -48,9 +48,9 @@
 
     
     <url>
-      <loc>http://javancook.com/</loc>
+      <loc>http://localhost:4000/</loc>
       
-        <lastmod>2015-08-27T16:58:21+01:00</lastmod>
+        <lastmod>2015-08-27T17:26:12+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,9 +66,9 @@
 
     
     <url>
-      <loc>http://javancook.com/search.html</loc>
+      <loc>http://localhost:4000/search.html</loc>
       
-        <lastmod>2015-08-27T16:58:21+01:00</lastmod>
+        <lastmod>2015-08-27T17:26:12+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

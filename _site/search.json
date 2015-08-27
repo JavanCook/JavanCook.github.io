@@ -5,7 +5,7 @@
          "description" : "An introduction to the remote xbox project",
          "category" : "Remote Xbox Project",
          "tags"     : ["Xbox","Raspberry-Pi", null],
-         "url"     : "/remote%20xbox%20project/2015/08/17/the-remote-xbox-project/",
+         "url"     : "/2015/the-remote-xbox-project/",
          "date"     : "2015-08-17 00:00:00 +0100"
        } ,
    
@@ -14,7 +14,7 @@
          "description" : "The sources and guides used to make this blog",
          "category" : "Blog",
          "tags"     : ["HTML","CSS","Jekyll", null],
-         "url"     : "/blog/2015/08/16/making-this-blog/",
+         "url"     : "/2015/making-this-blog/",
          "date"     : "2015-08-16 00:00:00 +0100"
        } 
    
