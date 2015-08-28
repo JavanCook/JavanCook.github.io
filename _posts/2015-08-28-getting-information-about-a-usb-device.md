@@ -1,6 +1,6 @@
 ---
 title: Getting Information about a USB Device
-description: How to use Linux and Python to get data from a USB device.
+description: How to use Linux to get data from a USB device.
 category: Remote Xbox Project
 tags: USB Linux Raspberry-Pi
 keywords: USB, Linux, Raspberry-Pi
@@ -183,7 +183,7 @@ Now that we've established the details of the different Interfaces and Endpoints
 Fortunately, this has already been done within [Tattiebogle's post on wired controller information](http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/UsbInfo).
 He found that Interface 0 corresponds to the data from the controller, including the status of components such as the rumble motors, the LED ring and whether the headset is present, as well as the controls status.
 He also speculates that Interface 1 is for the audio data for the mic and speaker in the headset and Interface 3 is a security measure used by Microsoft to check that the controller is licensed.
-This later point makes sense due to the lack of Endpoint associated with Interface 3 and the presence of what appears to be a proprietary chip on the controller circuit board.
+This latter point makes sense due to the lack of Endpoint associated with Interface 3 and the presence of what appears to be a proprietary chip on the controller circuit board.
 This also has implications for item three on the checklist, replicating the inputs on the server side as outputs to the 360 console, and as such will be discussed in more detail in a later post.
 No speculation is offered for the role of Interface 2.
 As it only possesses a solitary IN Endpoint, I reckon it could be for the chatpad accessory, which is something I'll need to investigate further, along with extracting data from the Endpoints in the next post.
