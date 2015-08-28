@@ -15,8 +15,16 @@ body {
 article,
 aside,
 details,
-figcaption,
-figure,
+figcaption {
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+figure {
+  display: inline
+}
 footer,
 header,
 hgroup,

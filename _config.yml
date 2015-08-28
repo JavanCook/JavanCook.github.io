@@ -6,5 +6,8 @@ url: "http://javancook.com"
 paginate: 10
 
 markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
 permalink: /:year/:title/
 highlighter: pygments
