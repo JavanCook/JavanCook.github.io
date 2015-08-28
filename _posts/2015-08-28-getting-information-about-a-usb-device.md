@@ -186,4 +186,5 @@ He also speculates that Interface 1 is for the audio data for the mic and speake
 This latter point makes sense due to the lack of Endpoint associated with Interface 3 and the presence of what appears to be a proprietary chip on the controller circuit board.
 This also has implications for item three on the checklist, replicating the inputs on the server side as outputs to the 360 console, and as such will be discussed in more detail in a later post.
 No speculation is offered for the role of Interface 2.
-As it only possesses a solitary IN Endpoint, I reckon it could be for the chatpad accessory, which is something I'll need to investigate further, along with extracting data from the Endpoints in the next post.
+As it possesses only a solitary IN Endpoint, I reckon it could be for the chatpad accessory.
+This is something I'll be investigating further, once I acquire a chatpad, along with extracting data from the Endpoints in the next post.
