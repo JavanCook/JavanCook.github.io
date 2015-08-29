@@ -74,6 +74,8 @@ The format is a bit odd and it will require some work to make it usable but it i
 I'm not going to analyse the contents of Packet 5 immediately, that can wait until item three on the list of requirements is addressed, but feel free to consult [Tattiebogle](http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/UsbInfo) if you can't wait.
 Instead I'm next going to address transferring data between a client and server.
 
+### Checklist
+
 -  ~~A way of detecting the inputs from a controller.~~
 -  A way of transferring this information from a client to a server.
 -  A way of replicating the inputs on the server side as outputs to the 360 console.
