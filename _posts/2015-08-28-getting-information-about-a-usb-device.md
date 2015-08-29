@@ -1,6 +1,6 @@
 ---
 title: Getting Information about a USB Device
-description: How to use Linux to get data from a USB device.
+description: How to use Linux to get data about a USB device.
 category: Remote Xbox Project
 tags: USB Linux Raspberry-Pi
 keywords: USB, Linux, Raspberry-Pi

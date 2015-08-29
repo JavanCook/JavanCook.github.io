@@ -7,7 +7,7 @@ paginate: 10
 
 markdown: redcarpet
 redcarpet:
-  extensions: ["tables"]
+  extensions: ["tables", "strikethrough"]
 
 permalink: /:year/:title/
 highlighter: pygments

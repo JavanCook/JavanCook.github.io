@@ -16,9 +16,9 @@ This led me to the websites [USB Made Simple](http://www.usbmadesimple.co.uk/ind
 These sources provided me with a rudimentary knowledge of USB devices, enough to get started with anyway. Essentially, in addition to a Vendor and Product identifiers, USB devices feature Configurations, Interfaces and Endpoints, a combination of which control how the device works.
 The top level is the Configuration which controls what the device does.
 Whilst a device can have more than one Configuration associated with it, only one can be active at any time, and it is selected by the device driver.
-A given Configuration can have a number of Endpoints which specifies the functions of the device, usually one function per Interface.
+A given Configuration can have a number of Interfaces which specifies the functions of the device, usually one function per Interface.
 Again, Interfaces can have alternate settings associated with them and only one can be active at once.
-Finally, Interfaces have Configurations which are used to transfer the data in and out of the device and cannot be shared between Interfaces.
+Finally, Interfaces have Endpoints which are used to transfer the data in and out of the device and cannot be shared between Interfaces.
 
 <figure>
 <center><a href="/assets/images/USBdevice.png"><img src="/assets/images/USBdevice.png" align="middle" width="500" ></a></center>
@@ -29,7 +29,7 @@ Finally, Interfaces have Configurations which are used to transfer the data in a
 </figure>
 
 Every USB device must assign a bidirectional control Endpoint at the 0 address.
-This is so information about the device can be obtained and the configuration for the device can be set.
+This is so information about the device can be obtained and the Configuration for the device can be set.
 The data Endpoints are unidirectional (IN or OUT) and have one of four types (control, interrupt, isochronous and bulk).
 IN and OUT are relative to the host, so IN is a transfer from the device to the host whilst OUT is a transfer from the host to the device.
 A typical example of a USB device using Figure 1 would be that of a webcam with a built-in microphone and speaker.
