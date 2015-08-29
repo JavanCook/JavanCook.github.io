@@ -14,8 +14,8 @@ Given I was planning on using Python for this project the module [PyUSB](https:/
 The main three lines of code we need from PyUSB are:
 {% highlight python %}
 >>> usb.core.find(idVendor=a, idProduct=b)
->>> dev.read(x, y, z)
 >>> dev.set_configuration()
+>>> dev.read(x, y, z)
 >>> dev.write(x, y, z)
 {% endhighlight %}
 
