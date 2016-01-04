@@ -4,18 +4,11 @@ layout: default
 ---
 <h3>Box Number	Location	Status		Time </h3>
 
-dt-123-04	Broers Building 
-
-dt-123-04	Broers Building 
-
-dt-123-04	Broers Building 
-
-dt-123-04	Broers Building 
-
-(u'|dt-123-04\t|Outgoing|', '|Checked Out|', 'Mon, 04, Jan 2016 22:17:46', '|')
-(u'|dt-123-04\t|Broers Building|', '|Checked In|', 'Mon, 04, Jan 2016 22:18:02', '|')
-(u'|dt-123-04\t|Outgoing|', '|Checked Out|', 'Mon, 04, Jan 2016 22:19:21', '|')
 dt-123-04	Broers Building 	Checked In	 Mon, 04, Jan 2016 22:26:35 
 
 dt-123-04	Outgoing 	Checked Out	 Mon, 04, Jan 2016 22:26:50 
+
+dt-123-04	Outgoing 	Checked Out	 Mon, 04, Jan 2016 22:32:18 
+
+dt-123-04	Outgoing 	Checked Out	 Mon, 04, Jan 2016 22:43:47 
 
