@@ -18,3 +18,5 @@ dt-123-04	Outgoing 	Checked Out	 Mon, 04, Jan 2016 22:58:57
 
 dt-123-04	Outgoing 	Checked Out	 Tue, 05, Jan 2016 17:14:27 
 
+dt-123-04	Broers Building 	Checked In	 Tue, 05, Jan 2016 17:15:08 
+
